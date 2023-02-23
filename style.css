@@ -1,0 +1,69 @@
+body{
+    background-image: url("bagpack.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+}
+#personalize{
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.box{
+    background-color: rgb(30, 255, 0);
+    padding: 15px;
+    border-radius: 25px;
+}
+.box2{
+    background-color: rgb(30, 255, 0);
+    padding: 15px 30px ;
+    border-radius: 25px;
+    margin-left: 100px;
+    height: 30px;
+    margin-top: 2%;
+    padding-top:5px;
+}
+.subs{
+    flex-direction: row;
+    display: flex;
+    font-weight: lighter;
+    font-size: medium;
+}
+.down{
+    flex-direction: left;
+    
+}
+.abt{
+    margin-left: 100px;
+}
+.bags{
+    margin-left: 100px;
+    
+
+}
+.access{
+    margin-left: 100px;
+
+}
+.blg{
+    margin-left: 100px;
+
+}
+#state{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    color: blue;
+}
+#navs{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}
+#kip{
+    font-weight: lighter;
+    font-size: medium;
+}
+
+
